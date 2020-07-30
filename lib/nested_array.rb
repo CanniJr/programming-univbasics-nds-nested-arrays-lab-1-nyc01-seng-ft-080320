@@ -60,7 +60,7 @@ def sorted_matrix
   "Asparagus"
         ]
         ]
-        nested_array[0].sort,
+        nested_array[0].sort
         nested_array[1].sort
 end
 
