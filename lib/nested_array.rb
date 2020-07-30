@@ -33,7 +33,7 @@ def sorted_matrix
   nested_array = [
     CONVENTIONAL_PRODUCE,
     ORGANIC_PRODUCE]
-  nested_array
+  nested_array.sort
   
   
 end
