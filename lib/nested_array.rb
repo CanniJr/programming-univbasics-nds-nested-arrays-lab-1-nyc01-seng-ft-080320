@@ -50,7 +50,6 @@ def matrix_lookup(matrix, row, column)
       CONVENTIONAL_PRODUCE.sort, ORGANIC_PRODUCE.sort]
       
     nested_array[row][column]
-    sorted_array[row][column]
   
 end
 
