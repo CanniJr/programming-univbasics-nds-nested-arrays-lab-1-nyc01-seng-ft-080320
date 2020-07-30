@@ -34,7 +34,7 @@ def sorted_matrix
     CONVENTIONAL_PRODUCE,
     ORGANIC_PRODUCE]
     nested_array
-  
+
   
 end
 
