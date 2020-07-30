@@ -22,21 +22,8 @@ def assembled_matrix
   # Organic standards require that organic products be stored ABOVE conventional, not the other way around
   # Make sure conventional produce is first, on the 'zeroth' / 'bottom' shelf
   nested_array = [
-    conventional_produce = [
-        "Grapefruit",
-        "Pineapple",
-        "Oranges",
-        "Watermelon",
-        "Eggplant"
-        ],
-    organic_produce = [
-  "Strawberries",
-  "Potatoes",
-  "Grapes",
-  "Avocadoes",
-  "Asparagus"
-        ]
-        ]
+    CONVENTIONAL_PRODUCE,
+    ORGANIC_PRODUCE]
 end
 
 def sorted_matrix
@@ -44,15 +31,15 @@ def sorted_matrix
   # uses the arrays of conventional and organic produce as before.
   # However, this time, sort each internal array alphabetically by the first character
   
-  nested_array = [
-    conventional_produce = [
+ # nested_array = [
+    #conventional_produce = [
         "Grapefruit",
         "Pineapple",
         "Oranges",
         "Watermelon",
         "Eggplant"
         ],
-    organic_produce = [
+    #organic_produce = [
   "Strawberries",
   "Potatoes",
   "Grapes",
@@ -60,9 +47,9 @@ def sorted_matrix
   "Asparagus"
         ]
         ]
-        nested_array[0].sort
-        nested_array[1].sort
-end
+       # nested_array[0].sort
+        #nested_array[1].sort
+#end
 
 def matrix_lookup(matrix, row, column)
   # Given any matrix (array of arrays), a row index and a column index, 
