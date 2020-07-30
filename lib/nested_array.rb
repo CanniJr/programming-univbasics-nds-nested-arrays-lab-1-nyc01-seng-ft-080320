@@ -46,7 +46,7 @@ def matrix_lookup(matrix, row, column)
     ORGANIC_PRODUCE]
     sorted_array = [
       CONVENTIONAL_PRODUCE.sort, ORGANIC_PRODUCE.sort]
-      
+      sorted_array[row][column]
 end
 
 def matrix_update(matrix, row, column, new_value)
