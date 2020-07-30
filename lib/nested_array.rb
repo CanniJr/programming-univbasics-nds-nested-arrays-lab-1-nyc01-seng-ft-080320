@@ -60,8 +60,8 @@ def sorted_matrix
   "Asparagus"
         ]
         ]
-        nested_array[0].sort
-        nested_array[1].sort
+        (nested_array[0] && nested_array[1]).sort
+      end
 end
 
 def matrix_lookup(matrix, row, column)
