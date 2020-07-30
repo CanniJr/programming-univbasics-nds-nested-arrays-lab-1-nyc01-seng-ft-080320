@@ -61,7 +61,6 @@ def sorted_matrix
         ]
         ]
         (nested_array[0] && nested_array[1]).sort
-      end
 end
 
 def matrix_lookup(matrix, row, column)
