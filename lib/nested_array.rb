@@ -35,8 +35,6 @@ def sorted_matrix
     ORGANIC_PRODUCE]
     sorted_array = [
       CONVENTIONAL_PRODUCE.sort, ORGANIC_PRODUCE.sort]
-
-
   
 end
 
